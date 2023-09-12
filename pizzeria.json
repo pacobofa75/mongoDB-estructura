@@ -1,0 +1,192 @@
+{
+    "Cliente": [
+        {
+            "_id": 1,
+            "nom": "Pepe",
+            "apellido": "Garcia",
+            "direccion": "Calle 43",
+            "codigo_postal": "08005",
+            "localidad": "Barcelona",
+            "província": "Barcelona",
+            "telefono":93111111222
+        },
+        {
+            "_id": 2,
+            "nom": "Maria",
+            "apellido": "Lopez",
+            "direccion": "Calle 44",
+            "codigo_postal": "08006",
+            "localidad": "Girona",
+            "província": "Girona",
+            "telefono":93111111333
+        },
+        {
+            "_id": 3,
+            "nom": "Luis",
+            "apellido": "Gonzalez",
+            "direccion": "Calle 51",
+            "codigo_postal": "08008",
+            "localidad": "Girona",
+            "província": "Girona",
+            "telefono":93111111333
+        }
+    ],
+    "Pedidos": [
+        {
+            "id_pedido": 1,
+            "fecha_hora": new Date("2020"),
+            "reparto_domicilio": true/false,
+            "productos": [
+               {
+                  "producto_id": 1,
+                  "cantidat": 2
+               },
+               {
+                "producto_id": 2,
+                "cantidat": 3
+             }
+            ],
+            "precio_total": 40,
+            "cliente_id": 1,
+            "id_tienda": 1,
+            "id_repartidor": 2,
+            "fecha_hora_entrega": new Date ("2019")
+         },
+            {
+             "id_pedido": 2,
+            "fecha_hora": new Date("2023"),
+            "reparto_domicilio": true/false,
+            "productos": [
+               {
+                  "producto_id": 3,
+                  "cantidat": 2
+               },
+               {
+                "producto_id": 2,
+                "cantidat": 3
+             }
+            ],
+            "precio_total": 50,
+            "cliente_id": 2,
+            "id_tienda": 3,
+            "id_repartidor": 1,
+            "fecha_hora_entrega": new Date ("2023")
+         },
+         {
+            "id_pedido": 3,
+           "fecha_hora": new Date("2021"),
+           "reparto_domicilio": true/false,
+           "productos": [
+              {
+                 "producto_id": 1,
+                 "cantidat": 3
+              },
+              {
+               "producto_id": 2,
+               "cantidat": 3
+            }
+           ],
+           "precio_total": 70,
+           "cliente_id": 3,
+           "id_tienda": 2,
+           "id_repartidor": 3,
+           "fecha_hora_entrega": new Date ("2022")
+        }
+    ],
+    "Productos" .[
+        {
+            "id_producto": 1,
+            "nombre": "pizza_margarita",
+            "descripción": "Pizza maragrita",
+            "imagen": "www.imagen.com",
+            "precio": 9,
+            "id_categoria": 1
+         },
+         {
+            "id_producto": 2,
+            "nombre": "hamburguesa completa",
+            "descripcion": "hamburguesa de carne con todo",
+            "image"n: "www.imagen.com",
+            "precio": 12,
+            "id_categoria": 2
+         },
+         {
+            "id_producto": 3,
+            "nombre": "bebida_gas",
+            "descripcion": "bebida con gas",
+            "imagen": "www.imagen.com",
+            "precio": 2,
+            "id_categoria": 3
+         }
+    ],
+    "Categorias": [
+        {
+            "id_categoria": 1,
+            "nombre": "Pizza_basica"
+         },
+         {
+            "id_categoria": 2,
+            "nombre": "Pizza_completa"
+         },
+         {
+            "id_categoria": 3,
+            "nombre": "Pizza_carne"
+         }
+    ],
+    "Tiendas" :[
+        {
+            "id_tienda": 1,
+            "direccion": "Calle 77",
+            "codigo_postal": "08003",
+            "localidad": "Hospitalet",
+            "provincia": "Barcelona"
+         },
+         {
+            "id_tienda": 2,
+            "direccion": "Calle 55",
+            "codigo_postal": "08004",
+            "localidad": "Barcelona",
+            "provincia": "Barcelona"
+         },
+         {
+            "id_tienda": 3,
+            "direccion": "Calle 28",
+            "codigo_postal": "08002",
+            "localidad": "Girona",
+            "provincia": "Girona"
+         }
+    ],
+    "Empleados":[
+        {
+            "id_empleado": 1,
+            "nombre": "Pedro",
+            "apellidos": "Garcia",
+            "NIF": "A12312312",
+            "telefono": "93123123000",
+            "rol": "Cocinero o Repartidor",
+            "id_tienda": 1
+         },
+         {
+            "id_empleado": 2,
+            "nombre": "Manolo",
+            "apellidos": "Perez",
+            "NIF": "A12312555",
+            "telefono": "93123123222",
+            "rol": "Cocinero o Repartidor",
+            "id_tienda": 2
+         },
+         {
+            "id_empleado": 3,
+            "nombre": "Maria",
+            "apellidos": "Lopez",
+            "NIF": "A1231235",
+            "telefono": "93123123999",
+            "rol": "Cocinero o Repartidor",
+            "id_tienda": 3
+         }
+    ]
+    
+
+         
+
+ 
